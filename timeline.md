@@ -46,25 +46,25 @@ Each Sunday = numbered steps **`Wk.substep`** (e.g. 1.1, 1.2 … 2.1, 2.2). Fill
 | 2 | 2026-08-30 | 2.2 · Rev — Valid Parentheses | | | |
 | 2 | 2026-08-30 | 2.3 · Rev — Group Anagrams | | | |
 | 2 | 2026-08-30 | 2.4 · New — Find Minimum in Rotated Sorted Array | | | Blind 75 · Array |
-| 2 | 2026-08-30 | 2.5 · Wrap-up — log learnings in `learnings.md` | | | |
-| 3 | 2026-09-06 | 3.1 · Rev — Best Time Buy/Sell Stock | | | |
-| 3 | 2026-09-06 | 3.2 · Rev — Valid Anagram | | | |
-| 3 | 2026-09-06 | 3.3 · Rev — Move Zeros | | | |
-| 3 | 2026-09-06 | 3.4 · New — Missing Number | | | Blind 75 · Binary |
-| 3 | 2026-09-06 | 3.5 · New — Reverse Bits | | | Blind 75 · Binary |
-| 3 | 2026-09-06 | 3.6 · Wrap-up — log learnings in `learnings.md` | | | |
+| 2 | 2026-08-30 | 2.5 · Wrap-up — log learnings in `learnings.md` | done | 2026-09-13 | |
+| 3 | 2026-09-06 | 3.1 · Rev — Best Time Buy/Sell Stock | | | Track `minPrice` and `maxProfit` |
+| 3 | 2026-09-06 | 3.2 · Rev — Valid Anagram | | | 26-slot frequency array: increment `s`, decrement `t` |
+| 3 | 2026-09-06 | 3.3 · Rev — Move Zeros | | | Write non-zeros at `insertPosition`, then fill zeros |
+| 3 | 2026-09-06 | 3.4 · New — Missing Number | done | 2026-09-20 | XOR index and value; pairs cancel |
+| 3 | 2026-09-06 | 3.5 · New — Longest Repeating Character Replacement | | | Sliding window: `windowLength - maxFreq <= k` |
+| 3 | 2026-09-06 | 3.6 · Wrap-up — log learnings in `learnings.md` | | | Learnings added on 2026-09-20 |
 | 4 | 2026-09-13 | 4.1 · Rev — 3Sum | | | |
 | 4 | 2026-09-13 | 4.2 · Rev — Longest Substring Without Repeating | | | |
-| 4 | 2026-09-13 | 4.3 · Rev — Contains Duplicate | | | |
-| 4 | 2026-09-13 | 4.4 · New — Climbing Stairs | | | Blind 75 · DP |
-| 4 | 2026-09-13 | 4.5 · New — House Robber | | | Blind 75 · DP |
+| 4 | 2026-09-13 | 4.3 · Rev — Contains Duplicate | done | 2026-09-27 | |
+| 4 | 2026-09-13 | 4.4 · New — Minimum Window Substring | | | Blind 75 · String |
+| 4 | 2026-09-13 | 4.5 · New — Encode and Decode Strings | | | Blind 75 · String |
 | 4 | 2026-09-13 | 4.6 · Wrap-up — log learnings in `learnings.md` | | | |
 | 5 | 2026-09-20 | 5.1 · Buffer — rest / trip (no mandatory tasks) | | | buffer week |
 | 5 | 2026-09-20 | 5.2 · Optional — 1 hard revision you skipped | | | |
 | 6 | 2026-09-27 | 6.1 · Rev — Search Rotated Sorted Array | | | |
 | 6 | 2026-09-27 | 6.2 · Rev — Subarray Sum Equals K | | | |
 | 6 | 2026-09-27 | 6.3 · Rev — Valid Palindrome | | | |
-| 6 | 2026-09-27 | 6.4 · New — Merge Intervals | | | Blind 75 · Interval |
+| 6 | 2026-09-27 | 6.4 · New — Palindromic Substrings | | | Blind 75 · String |
 | 6 | 2026-09-27 | 6.5 · New — Insert Interval | | | Blind 75 · Interval |
 | 6 | 2026-09-27 | 6.6 · Wrap-up — log learnings in `learnings.md` | | | |
 | 7 | 2026-10-04 | 7.1 · Rev — Max Product Subarray | | | |
@@ -82,15 +82,15 @@ Each Sunday = numbered steps **`Wk.substep`** (e.g. 1.1, 1.2 … 2.1, 2.2). Fill
 | 9 | 2026-10-18 | 9.1 · Rev — Container With Most Water | | | |
 | 9 | 2026-10-18 | 9.2 · Rev — Group Anagrams | | | |
 | 9 | 2026-10-18 | 9.3 · Rev — Move Zeros | | | |
-| 9 | 2026-10-18 | 9.4 · New — Longest Repeating Character Replacement | | | Blind 75 · String |
+| 9 | 2026-10-18 | 9.4 · New — Reverse Bits | | | Blind 75 · Binary |
 | 9 | 2026-10-18 | 9.5 · Wrap-up — log learnings in `learnings.md` | | | |
 | 10 | 2026-10-25 | 10.1 · Buffer — rest / catch-up (no mandatory tasks) | | | buffer week |
 | 10 | 2026-10-25 | 10.2 · Optional — 2 weak revisions from Wk 1–9 | | | |
 | 11 | 2026-11-01 | 11.1 · Rev — 3Sum | | | |
 | 11 | 2026-11-01 | 11.2 · Rev — Subarray Sum Equals K | | | |
 | 11 | 2026-11-01 | 11.3 · Rev — Best Time Buy/Sell Stock | | | |
-| 11 | 2026-11-01 | 11.4 · New — Minimum Window Substring | | | Blind 75 · String |
-| 11 | 2026-11-01 | 11.5 · New — Encode and Decode Strings | | | Blind 75 · String |
+| 11 | 2026-11-01 | 11.4 · New — Climbing Stairs | | | Blind 75 · DP |
+| 11 | 2026-11-01 | 11.5 · New — House Robber | | | Blind 75 · DP |
 | 11 | 2026-11-01 | 11.6 · Wrap-up — log learnings in `learnings.md` | | | |
 | 12 | 2026-11-08 | 12.1 · Rev — Max Subarray | | | |
 | 12 | 2026-11-08 | 12.2 · Rev — Valid Anagram | | | |
@@ -200,7 +200,7 @@ Each Sunday = numbered steps **`Wk.substep`** (e.g. 1.1, 1.2 … 2.1, 2.2). Fill
 | 32 | 2027-03-28 | 32.2 · Rev — Max Subarray | | | |
 | 32 | 2027-03-28 | 32.3 · Rev — Search Rotated Sorted Array | | | |
 | 32 | 2027-03-28 | 32.4 · New — Construct BT from Preorder & Inorder | | | Blind 75 · Tree |
-| 32 | 2027-03-28 | 32.5 · New — Palindromic Substrings | | | Blind 75 · String |
+| 32 | 2027-03-28 | 32.5 · New — Merge Intervals | | | Blind 75 · Interval |
 | 32 | 2027-03-28 | 32.6 · Wrap-up — log learnings in `learnings.md` | | | |
 | 33 | 2027-04-04 | 33.1 · Rev — Best Time Buy/Sell Stock | | | |
 | 33 | 2027-04-04 | 33.2 · Rev — Valid Anagram | | | |

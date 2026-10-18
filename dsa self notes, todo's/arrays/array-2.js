@@ -474,3 +474,27 @@ function threeSumIndices(nums, target) {
 }
 
 console.log(threeSumIndices([2, 7, 11, 15, 3], 20));
+
+
+// find minimum in rotated sorted array
+// blind 75
+function findMin(arr) {
+    let left = 0;
+    let right = arr.length-1;
+  
+    while (left < right) {
+      let mid = (left + right)/2
+  
+      if (arr[mid] > arr[right]) {
+        left = mid + 1;
+      } else {
+        right = mid;
+      }
+    }
+  
+    return arr[left]
+  
+  }
+  
+  
+  console.log(findMin([4, 5, 6, 7, 0, 1, 2]));
